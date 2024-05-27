@@ -14,7 +14,7 @@ header > h1{
     border-radius: 0px 0px 5px 5px;
     padding-bottom: 50px;
     padding-top: 50px;
-    font-size: 50px;                                        
+    font-size:50px;                                        
 }
 
 main > h2 > a:hover{
@@ -28,7 +28,7 @@ main  > h2 > a{
 main{
     margin: auto;
     background-color: cornsilk;
-    width: 400px;
+    width: 350px;
     margin-top: 10px;
     border-radius: 5px;
     box-shadow: 0px 0px 5px rgba(111, 109, 109, 0.37);
@@ -52,7 +52,7 @@ main > picture > img{
 main > p.conteudo{
     font-size: 20px;
     font-family: Edu TAS Beginner;
-    padding-left: 100px;
+    padding-left: 80px;
     margin-top: 15px; 
     text-indent: 10px;
     text-align: justify;
