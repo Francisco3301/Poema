@@ -1,0 +1,83 @@
+@charset "UTF8";
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+
+*{
+    margin: 0px;
+}
+header > h1{ 
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.657), pink);
+    text-align: center;
+    font-family: Poetsen One;
+    border-radius: 0px 0px 5px 5px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    font-size: 50px;                                        
+}
+
+main > h2 > a:hover{
+    color: rgba(255, 0, 0, 0.708);
+
+}
+main  > h2 > a{
+    color: black;
+}
+
+main{
+    margin: auto;
+    background-color: cornsilk;
+    width: 400px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(111, 109, 109, 0.37);
+
+}
+main > h1,h2 {
+      text-indent: 7px;
+
+}
+main > picture{
+  margin: 10px;
+}
+
+main > picture > img{
+    width: 100px;
+   margin: auto;
+   display: block;
+ 
+    
+}
+main > p.conteudo{
+    font-size: 20px;
+    font-family: Edu TAS Beginner;
+    padding-left: 100px;
+    margin-top: 15px; 
+    text-indent: 10px;
+    text-align: justify;
+}
+main > p.descricao{
+    text-align: justify;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 7px;
+    padding-bottom: 15px;
+}
+
+footer{
+    background-color:dimgray;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 20px;
+}
+footer > a{
+   text-decoration: none;
+   color: black;
+   font-weight: bolder;
+}
+
+footer > a:hover{
+    color: brown;
+    text-decoration: underline;
+}
